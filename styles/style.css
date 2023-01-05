@@ -168,7 +168,101 @@ section {
 
 /* Resume Styles */
 
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
 
+.resume-item {
+    margin: 30px 0;
+}
 
+.resume .resume-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
 
+.resume .resume-subTitle {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
 
+.resume .resume-description {
+    color: #757575;
+}
+
+.resume > .resume-btn {
+    text-align: center;
+}
+
+/* Contact styles */
+
+footer {
+    background: #FFF8F3;   
+}
+
+footer .contact-container {
+    display: flex;
+    gap: 100px;
+    padding: 130px 200px;
+}
+
+.contact-container .contact-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 15px;
+}
+
+.contact-container .contact-sub-title {
+    color: #181818;
+    /* font-size-adjust: 400px; */
+    font-stretch: condensed;
+}
+
+.contact-container a img{
+    margin-top: 20px;
+    padding: 0 20px 0 0;
+}
+
+.from {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-area input {
+    border: none;
+    border-radius: 5px;
+    width: 460px;
+    padding: 18px 30px;
+    color: #757575;
+    margin-bottom: 24px;
+}
+
+.form-area input:focus{
+    outline: none;
+}
+
+.form-area textarea {
+    width: 460px;
+    padding: 18px 30px;
+    resize: none;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.form-area textarea:focus {
+    outline: none;
+}
+
+.form-area button {
+    width: 150px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
